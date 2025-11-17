@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Redify — Internet WISP en Ciudad Caucel</title>
+  <meta name="description" content="Internet rápido, estable y humano en Ciudad Caucel, Mérida. Planes 5 Mb, 10 Mb y 15 Mb. Atención por WhatsApp.">
+  <link rel="icon" type="image/png" href="assets/img/redify_logotipo-08.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="bg-white">
+  <header id="site-header" class="fixed top-0 inset-x-0 z-50 transition-all bg-transparent">
+    <div class="max-w-7xl mx-auto flex items-center justify-between px-4 py-4">
+      <div class="flex items-center gap-3">
+        <img src="assets/img/redify_logotipo-02.png" alt="Redify logo" class="h-16 w-auto">
+      </div>
+      <nav class="hidden md:flex items-center gap-8 text-white">
+        <a href="#about" class="hover:opacity-80">Acerca de nosotros</a>
+        <a href="#services" class="hover:opacity-80">Servicios</a>
+       <!-- ` <a href="#reviews" class="hover:opacity-80">Reseñas</a> ` -->
+      </nav>
+      <a href="https://wa.me/529995421285" class="hidden md:inline-flex btn-primary px-5 py-2 rounded-xl font-medium">Contactar</a>
+    </div>
+  </header>
+
+  <section id="hero" class="pt-20 md:pt-24 relative">
+    <div class="hero-media" aria-hidden="true">
+      <picture>
+        <!-- Mobile first -->
+        <source media="(max-width: 480px) and (min-resolution: 2dppx)" srcset="assets/img/Hero-Mobile-Retina.jpg">
+        <source media="(max-width: 480px)" srcset="assets/img/Hero-Mobile-Large.jpg, assets/img/Hero-Mobile-HD.jpg 2x">
+        <!-- Desktop / tablets -->
+        <source media="(min-width: 1024px) and (min-resolution: 2dppx)" srcset="assets/img/Hero-Retina.jpg">
+        <source media="(min-width: 1024px)" srcset="assets/img/Hero-Large.jpg, assets/img/Hero-HD.jpg 2x">
+        <!-- Fallback -->
+        <img src="assets/img/Hero-Large.jpg" alt="" />
+      </picture>
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="relative max-w-7xl mx-auto px-4 py-16 md:py-28 text-white">
+      <h1 class="text-3xl md:text-5xl font-extrabold md:w-3/4">Disfruta de una conexión estable</h1>
+      <p class="mt-3 text-white/90 md:w-2/3">Con los precios del mercado WISP más justos y la excelente atención al cliente.</p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
+        <div class="input-group">
+          <input id="name" placeholder=" " class="w-full px-4 py-3 rounded-xl bg-white/20 text-white placeholder-transparent outline-none focus:bg-white/25" />
+          <label for="name">Tu nombre</label>
+        </div>
+        <div class="input-group">
+          <input id="phone" placeholder=" " class="w-full px-4 py-3 rounded-xl bg-white/20 text-white placeholder-transparent outline-none focus:bg-white/25" />
+          <label for="phone">Tu número telefónico</label>
+        </div>
+        <button id="ctaBtn" class="btn-ghost rounded-xl px-6 py-3 font-semibold">Contáctanos</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="max-w-7xl mx-auto px-4 py-16">
+    <div class="grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h2 class="text-[#F93348] text-2xl md:text-3xl font-semibold">La mejor calidad en tu negocio y en tu hogar</h2>
+        <div class="mt-4 space-y-6 text-[16px] text-[#6C6C6C] leading-7">
+          <div>
+            <h3 class="text-[18px] text-[#414141] font-medium">Conectividad</h3>
+            <p>Queremos que México se encuentre a la vanguardia digital y por eso utilizamos equipos de calidad. Actualizamos constantemente nuestra red para ofrecerte el servicio más avanzado y hacer de tu conexión la más estable. Actualmente brindamos nuestros servicios en Ciudad Caucel.</p>
+          </div>
+          <div>
+            <h3 class="text-[18px] text-[#414141] font-medium">Confiabilidad</h3>
+            <p>Contamos con personal capacitado y, sin importar el problema que tengas, siempre estaremos dispuestos a ayudarte.</p>
+          </div>
+        </div>
+      </div>
+      <div class="rounded-2xl overflow-hidden shadow-lg">
+        <picture>
+          <source media="(max-width: 640px)" srcset="assets/img/Quality-Small.png">
+          <img src="assets/img/Quality.png" alt="Equipo Redify" class="w-full h-full object-cover">
+        </picture>
+      </div>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-6 mt-10 text-center">
+      <div class="card p-6">
+        <h4 class="text-[18px] font-semibold text-[#414141]">Nuestra experiencia nos respalda</h4>
+        <p class="mt-2 text-[16px] text-[#6C6C6C]">Operamos en el sureste de México desde julio de 2016.</p>
+      </div>
+      <div class="card p-6">
+        <h4 class="text-[18px] font-semibold text-[#414141]">Internet para todos</h4>
+        <p class="mt-2 text-[16px] text-[#6C6C6C]">Una buena conexión no debe ser la más costosa. Nuestros paquetes transforman vidas.</p>
+      </div>
+      <div class="card p-6">
+        <h4 class="text-[18px] font-semibold text-[#414141]">Olvídate de la informalidad</h4>
+        <p class="mt-2 text-[16px] text-[#6C6C6C]">Preparados para cualquier percance. Si nos necesitas, estamos disponibles de inmediato.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="bg-white">
+    <div class="max-w-7xl mx-auto px-4 py-16">
+      <h2 class="text-center text-[#F93348] text-2xl md:text-3xl font-semibold">Mejoramos tus conexiones</h2>
+      <p class="text-center text-[16px] text-[#6C6C6C] mt-2">Contrata el plan que mejor se adapte a tu medida.</p>
+      <div class="grid md:grid-cols-3 gap-6 mt-10">
+        <div class="plan p-8 text-center">
+          <h3 class="uppercase tracking-wide font-semibold">Conexión Básica</h3>
+          <div class="price leading-none mt-4">5<span class="text-3xl align-top"> Mb</span></div>
+          <div class="mt-1 text-xl font-bold">$250</div>
+          <p class="mt-3 text-white/90">Incluye 5 Mb de banda ancha</p>
+          <a href="https://wa.me/529995421285?text=Hola%20Redify%2C%20quiero%20contratar%20el%20plan%205%20Mb%20por%20250." class="inline-block mt-5 bg-white text-red-600 font-semibold px-5 py-2 rounded-lg">Contrátalo ahora</a>
+        </div>
+        <div class="plan p-8 text-center">
+          <h3 class="uppercase tracking-wide font-semibold">Conexión Ejecutiva</h3>
+          <div class="price leading-none mt-4">10<span class="text-3xl align-top"> Mb</span></div>
+          <div class="mt-1 text-xl font-bold">$350</div>
+          <p class="mt-3 text-white/90">Incluye 10 Mb de banda ancha</p>
+          <a href="https://wa.me/529995421285?text=Hola%20Redify%2C%20quiero%20contratar%20el%20plan%2010%20Mb%20por%20350." class="inline-block mt-5 bg-white text-red-600 font-semibold px-5 py-2 rounded-lg">Contrátalo ahora</a>
+        </div>
+        <div class="plan p-8 text-center">
+          <h3 class="uppercase tracking-wide font-semibold">Conexión Premium</h3>
+          <div class="price leading-none mt-4">15<span class="text-3xl align-top"> Mb</span></div>
+          <div class="mt-1 text-xl font-bold">$450</div>
+          <p class="mt-3 text-white/90">Incluye 15 Mb de banda ancha</p>
+          <a href="https://wa.me/529995421285?text=Hola%20Redify%2C%20quiero%20contratar%20el%20plan%2015%20Mb%20por%20450." class="inline-block mt-5 bg-white text-red-600 font-semibold px-5 py-2 rounded-lg">Contrátalo ahora</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- `<section id="reviews" class="max-w-7xl mx-auto px-4 py-16">
+    <h2 class="text-center text-2xl md:text-3xl text-[#F93348] font-semibold">Lo que nuestros clientes opinan de nosotros</h2>
+    <div class="grid md:grid-cols-3 gap-6 mt-10">
+      <div class="card p-6 text-center">
+        <img class="mx-auto h-16 w-16 rounded-full" src="https://i.pravatar.cc/160?img=1" alt="Cliente">
+        <h4 class="mt-4 text-[18px] font-medium">Aída Zelegna</h4>
+        <p class="text-[16px] text-[#6C6C6C] italic mt-2">“Son los mejores. La estabilidad y la atención al cliente fueron clave para cambiarnos a Redify.”</p>
+      </div>
+      <div class="card p-6 text-center">
+        <img class="mx-auto h-16 w-16 rounded-full" src="https://i.pravatar.cc/160?img=2" alt="Cliente">
+        <h4 class="mt-4 text-[18px] font-medium">Carlos G.</h4>
+        <p class="text-[16px] text-[#6C6C6C] italic mt-2">“Excelente servicio en Ciudad Caucel. Streaming y home office sin cortes.”</p>
+      </div>
+      <div class="card p-6 text-center">
+        <img class="mx-auto h-16 w-16 rounded-full" src="https://i.pravatar.cc/160?img=3" alt="Cliente">
+        <h4 class="mt-4 text-[18px] font-medium">Lissie P.</h4>
+        <p class="text-[16px] text-[#6C6C6C] italic mt-2">“Me ayudaron de inmediato con el soporte. Muy recomendados.”</p>
+      </div>
+    </div>
+  </section> ` -->
+
+  <section class="section-gradient">
+    <div class="container max-w-7xl mx-auto px-4 py-16 text-center text-white">
+      <h2 class="text-3xl font-semibold">Tu internet como nunca lo habías visto</h2>
+      <p class="mt-2 text-white/90">Únete a la comunidad Redify y disfruta de la mejor conexión en tu lugar favorito.</p>
+      <a href="https://wa.me/529995421285" class="mt-6 inline-block btn-primary px-6 py-3 rounded-xl font-semibold">Contáctanos</a>
+    </div>
+  </section>
+
+  <footer class="bg-white">
+    <div class="max-w-7xl mx-auto px-4 py-10 grid md:grid-cols-3 gap-4 items-center text-center md:text-left">
+      <div class="text-sm text-[#6C6C6C]">
+        <div><strong>contacto@redifymx.com</strong></div>
+        <div>Calle 75 #695 x 88 y 90 Ciudad Caucel, Fracc. Los Almendros</div>
+      </div>
+      <div class="text-sm flex items-center justify-center gap-6">
+        <a href="#" class="hover:underline">Política de privacidad</a>
+        <a href="#" class="hover:underline">Seguridad</a>
+        <a href="#" class="hover:underline">Términos de uso</a>
+      </div>
+      <div class="text-sm text-[#6C6C6C] text-center md:text-right">© 2025 RedifyMx — Todos los derechos reservados</div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/529995421285" class="floating-whatsapp inline-flex items-center gap-2 bg-green-500 text-white font-semibold px-4 py-3 rounded-full shadow-lg">
+    <span>Chatea por WhatsApp</span>
+  </a>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
